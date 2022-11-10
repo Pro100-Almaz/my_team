@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://pro100-almaz.github.io/my_team/">
       Solution
     </a>
     <span> | </span>
@@ -62,4 +62,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/Pro100_Almaz})
+- GitHub [Pro100_Almaz](https://{github.com/Pro100_Almaz})
