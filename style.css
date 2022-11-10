@@ -1,0 +1,231 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* HERO */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 100px auto;
+  gap: 10%;
+  max-width: 85%;
+}
+
+.hero-topic {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+}
+
+.hero-text {
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.hero-text-header {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.hero-text-content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  max-width: 439px;
+}
+
+/* MAIN */
+
+.team-gallery {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.members {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+.member1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 264px;
+  margin-bottom: 110px;
+  margin-top: 0px;
+}
+
+.member2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 264px;
+  margin-bottom: 110px;
+  margin-top: 70px;
+}
+
+.member3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 264px;
+  margin-bottom: 110px;
+  margin-top: 0;
+}
+
+.member4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 264px;
+  margin-bottom: 110px;
+  margin-top: 0;
+}
+
+.member5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 264px;
+  margin-bottom: 110px;
+  margin-top: 70px;
+}
+
+.member6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 264px;
+  margin-bottom: 110px;
+  margin-top: 0;
+}
+
+.member-special {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 264px;
+  margin-bottom: 110px;
+  margin-top: 70px;
+}
+
+.photo-prof {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 15px;
+}
+
+.member-img {
+  max-width: 238px;
+  max-height: 347px;
+}
+
+.profession {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  writing-mode: tb-rl;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.member-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+/* FOOTER */
+
+#footer {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #bdbdbd;
+  text-align: center;
+  margin-bottom: 24px;
+  margin-top: auto;
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    grid-template-columns: 1fr;
+    max-width: 95%;
+    margin: 70px auto;
+    margin-bottom: 150px;
+  }
+
+  .hero-topic {
+    margin-bottom: 38px;
+  }
+
+  .hero-text-content {
+    font-size: 14px;
+  }
+
+  .members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+  }
+
+  .member4,
+  .member6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 264px;
+    margin-bottom: 110px;
+    margin-top: 70px;
+  }
+
+  .member5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 264px;
+    margin-bottom: 110px;
+    margin-top: 0;
+  }
+
+  .member1,
+  .member2,
+  .member3,
+  .member4,
+  .member5,
+  .member6 {
+    max-width: 155px;
+  }
+}
+
+@media (max-width: 680px) {
+  .members {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+
+  .member1,
+  .member2,
+  .member3,
+  .member4,
+  .member5,
+  .member6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 264px;
+    margin-bottom: 110px;
+    margin-top: 0;
+  }
+}
